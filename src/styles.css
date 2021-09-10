@@ -1,0 +1,85 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    margin: 0 20%;
+    margin-top: 50px;
+}
+
+.project-tile{
+    text-align: center;
+    border: 2px solid  black;
+}
+
+.project-text-link{
+    color: white;
+    border: 2px solid black;
+    background-color: #A45D5D;
+    width: 100px;
+    text-align: center;
+    width: 200px;
+    margin-left: 27.5%;
+}
+
+.nav-link{
+    display: inline;
+    float: right;
+    margin: 1%;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75em;
+    padding: 20px 0;
+}
+
+.contact-link{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    padding: 20px;
+    color: #EAF6F6;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #A45D5D;
+}
+
+
+#welcome-section{
+    padding-top: 20%;
+    text-align: center;
+    background-color: #2D2424;
+    color: white;
+    height: 100vh;
+}
+
+#projects{
+    height: 100vh;
+    background-color: #334257;
+    
+}
+
+#project-heading{
+    text-align: center;
+    color: aliceblue;
+}
+
+#contact{
+    height: 100vh;
+    background-color: #423F3E;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.contact-link:hover{
+    color: #EAF6F6;
+    padding-top: 4rem;
+    text-decoration: none;
+}
